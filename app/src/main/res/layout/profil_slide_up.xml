@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.github.florent37.shapeofview.shapes.DiagonalView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:elevation="4dp"
+        app:shape_diagonal_angle="10"
+        app:shape_diagonal_direction="right"
+        app:shape_diagonal_position="bottom">
+
+        <!-- YOUR CONTENT -->
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/loginback">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RECORD SOMETHING"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintRight_toRightOf="parent"/>
+        </android.support.constraint.ConstraintLayout>
+
+    </com.github.florent37.shapeofview.shapes.DiagonalView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_btn_speak_now"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="15dp"/>
+
+
+    <es.claucookie.miniequalizerlibrary.EqualizerView
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/equalizer_view"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        custom:foregroundColor="@color/splash"
+        custom:animDuration="3500"
+        android:layout_centerInParent="true"
+        android:gravity="center"/>
+
+
+</RelativeLayout>

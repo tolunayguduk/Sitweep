@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "955251237752",
+    "firebase_url": "https://tb-sitweep.firebaseio.com",
+    "project_id": "tb-sitweep",
+    "storage_bucket": "tb-sitweep.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955251237752:android:8d355f79bfc8893d",
+        "android_client_info": {
+          "package_name": "com.tolunayguduk.sitweep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955251237752-h10bv0m8of4a40ha1i46rcs3a49495m4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tolunayguduk.sitweep",
+            "certificate_hash": "46488d38a6ad7e57b1763b80c7c4ec7683ae6107"
+          }
+        },
+        {
+          "client_id": "955251237752-l7a2lja4d6hnlri4pksnbtkanhve88qd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCESTPggofZnfwpjrtd2MO7HouuPT5KaYY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955251237752-l7a2lja4d6hnlri4pksnbtkanhve88qd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

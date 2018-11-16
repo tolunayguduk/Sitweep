@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="info.androidhive.materialtabs.activity.SimpleTabsActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/search"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_bank"
+        android:icon="@android:drawable/btn_star"
+        android:title="@string/store"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/message"
+        
+        android:icon="@android:drawable/ic_menu_send"
+        android:title="@string/dm"
+        app:showAsAction="always"/>
+
+
+</menu>

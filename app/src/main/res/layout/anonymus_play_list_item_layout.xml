@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/ivMusic"
+        android:src="@drawable/ddd"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/pause" />
+    <TextView
+        android:id="@+id/txtName"
+        android:textColor="#7019c1"
+        android:textSize="20sp"
+        android:text="Song name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_alignLeft="@+id/txtDate"
+        android:layout_alignStart="@+id/txtDate" />
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:textColor="#259e06"
+        android:textSize="18sp"
+        android:text="Singer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_alignBottom="@+id/ivMusic"
+        android:layout_toRightOf="@+id/ivMusic"
+        android:layout_toEndOf="@+id/ivMusic" />
+
+    <ImageView
+        android:id="@+id/play"
+        android:layout_marginTop="15dp"
+        android:layout_toLeftOf="@id/pause"
+        android:src="@android:drawable/ic_media_play"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+
+    <ImageView
+        android:id="@+id/pause"
+        android:layout_marginTop="15dp"
+        android:src="@android:drawable/ic_media_pause"
+        android:layout_alignParentRight="true"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+
+
+</RelativeLayout>
